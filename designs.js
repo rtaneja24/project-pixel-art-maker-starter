@@ -11,9 +11,9 @@ document.addEventListener('submit', function(event)
   const height = document.getElementById("inputHeight").value;
   const width = document.getElementById("inputWidth").value;
   makeGrid(height, width);
-  console.log('wemadadafdfasdfada')
-  console.log(height)
-  console.log(width)
+  //console.log('wemadadafdfasdfada')
+  //console.log(height)
+  //console.log(width)
 
   }
 )
