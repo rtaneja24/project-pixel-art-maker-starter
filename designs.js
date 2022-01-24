@@ -11,7 +11,7 @@ document.addEventListener('submit', function(event)
   const height = document.getElementById("inputHeight").value;
   const width = document.getElementById("inputWidth").value;
   makeGrid(height, width);
-  //console.log('wemadadafdfasdfada')
+  //console.log('Check on Event Listener')
   //console.log(height)
   //console.log(width)
 
@@ -31,4 +31,3 @@ function makeGrid(height, width) {
     }
   }
 }
-// still need to make the table interactive once we have a functional table
