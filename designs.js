@@ -27,7 +27,9 @@ function makeGrid(height, width) {
     for(let j=0; j < width; j++) {
       let cell = document.createElement('td');
     row.appendChild(cell);
-    cell.addEventListener('click', function (event){event.target.style.backgroundColor = color})
+    cell.addEventListener('click', function (event){
+      const color = document.getElementById("colorPicker").value;
+      event.target.style.backgroundColor = color})
     }
   }
 }
