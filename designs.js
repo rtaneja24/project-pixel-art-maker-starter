@@ -2,7 +2,6 @@
 // Select size input
 const canvas = document.getElementById("pixelCanvas");
 const submitButton = document.getElementById('submitButton')
-
 // When size is submitted by the user, call makeGrid()
 document.addEventListener('submit', function(event)
 {
